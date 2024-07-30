@@ -20,5 +20,13 @@
     "minimum-stability": "dev",
     "require-dev": {
         "orchestra/testbench": "8.x-dev"
+    },
+    "laravel": {
+        "providers": [
+            "Itszun\\Citadel\\Providers\\CitadelServiceProvider"
+        ],
+        "aliases": {
+            "Debugbar": "Barryvdh\\Debugbar\\Facade"
+        }
     }
 }
