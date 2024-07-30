@@ -2,6 +2,7 @@
     "name": "itszun/citadel",
     "description": "A simple data management for UI",
     "type": "library",
+    "license": "MIT",
     "require": {
         "laravel/framework": "^10.10"
     },
