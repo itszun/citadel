@@ -1,0 +1,23 @@
+{
+    "name": "itszun/citadel",
+    "description": "A simple data management for UI",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itszun\\Citadel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun",
+            "email": "malikal.j4@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "8.x-dev"
+    }
+}
